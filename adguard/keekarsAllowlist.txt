@@ -1,3 +1,4 @@
+! Title: Adguard DNS Allow List Compiled by Mukesh Kesharwani
 ||crashlogs.whatsapp.net^$messaging
 ||dit.whatsapp.net^$messaging
 ||dit.whatsapp.com^$14Jan2025
@@ -7,6 +8,7 @@
 @@||crashlogs.whatsapp.net^$messaging
 @@||dit.whatsapp.net^$messaging
 @@||dit.whatsapp.com^$14Jan2025
+@@||dit.whatsapp.net^$analytics
 
 @@||beacons.gvt1.com^$tracking
 @@||beacons.gvt2.com^$tracking
@@ -76,6 +78,7 @@
 @@||teams.nel.measure.office.net^$telemetry
 @@||teams.events.data.microsoft.com^$telemetry
 @@||mobile.events.data.microsoft.com^$telemetry
+@@||mobile.events.data.microsoft.com^$telemetry
 
 ! Adobe Servers 
 @@||cc-api-data.adobe.io^$analytics
@@ -136,6 +139,7 @@
 @@|githubusercontent.com^$cdn
 @@|www.githubusercontent.com^$cdn
 @@|raw.githubusercontent.com^$cdn
+@@||collector.github.com^$important
 
 ! Movies 
 @@||trk.pinterest.com^$ads
@@ -165,13 +169,15 @@
 @@||graph.whatsapp.com^$messaging
 @@||s.youtube.com^$streaming
 @@||app-analytics-services.com^$analytics
-
-! Title: Adguard DNS Allow List Compiled by Mukesh Kesharwani
-! Updated on: 19 Jun 2026
-! Total Domains in this list: 164
+@@||tailscale.com^$home_automation
 
 ! Adguard DNS Allow List 
 @@||device-provisioning.googleapis.com^$home_automation
 @@||firebaseinstallations.googleapis.com^$analytics
 @@||www.googletagmanager.com^$analytics
 @@||firebaselogging-pa.googleapis.com^$analytics
+@@||cf.iadsdk.apple.com^$analytics
+@@||mask.icloud.com^$analytics
+
+! Updated on: 19 Sep 2026
+! Total Domains in this list: 179
